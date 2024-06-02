@@ -42,7 +42,7 @@ function mostrarPokemon(poke) {
             </div>
             <div class="pokemon-stats">
                 <p class="stat">${poke.height/10}m</p>
-                <p class="stat">${poke.weight}kg</p>
+                <p class="stat">${poke.weight/10}kg</p>
             </div>
         </div>
     `;
